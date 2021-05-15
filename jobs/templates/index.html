@@ -1,16 +1,12 @@
 {% extends "layout.html" %}
+
 {% block content %}
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Job Board</title>
-        </head>
-        <body>
-            <div class="container top">
-            <div class="content">
-            </div>
-            </div>
-        </body>
-    </html>
+  <div class="columns">
+    <div class="column">
+      <h1>Jobs</h1>
+    </div>
+    <div class="column is-one-fifth">
+    </div>
+  </div>
 {{show_jobs(jobs)}}
 {% endblock %}
